@@ -1,0 +1,25 @@
+{
+  "name": "import-sort-style-angular-alternative",
+  "version": "1.0.0",
+  "description": "An import-sort style that groups and sorts by module and places @angular/ at the top",
+  "main": "lib/index.js",
+  "typings": "lib/index.d.ts",
+  "scripts": {
+    "prepublish": "npm run lint; npm run build",
+    "build": "tsc -p src",
+    "build:watch": "tsc -p src -w",
+    "lint": "tslint src/**/*.ts"
+  },
+  "author": "Hendrik Richert <hendrik@richert.li>",
+  "license": "MIT",
+  "dependencies": {
+    "import-sort-style": "^5.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^10.3.5",
+    "import-sort-parser": "^5.0.0",
+    "ts-node": "^7.0.0",
+    "tslint": "^5.10.0",
+    "typescript": "^2.9.2"
+  }
+}
