@@ -19,7 +19,7 @@
     "@types/node": "^10.3.5",
     "import-sort-parser": "^5.0.0",
     "ts-node": "^7.0.0",
-    "tslint": "^5.10.0",
+    "tslint": "^5.17.0",
     "typescript": "^2.9.2"
   }
 }
