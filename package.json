@@ -1,6 +1,6 @@
 {
   "name": "import-sort-style-angular-alternative",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "An import-sort style that groups and sorts by module and places @angular/ at the top",
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
